@@ -28,3 +28,8 @@ h2 span {
 #archShape {
   border-radius: 0 0 700px 700px/ 0 0 60px 60px;
 }
+
+.maskBackground {
+  mask: url('.mask');
+  -webkit-mask: url('#mask');
+}
