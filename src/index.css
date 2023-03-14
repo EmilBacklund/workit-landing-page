@@ -1,26 +1,27 @@
 @font-face {
-  font-family: "Fraunces";
+  font-family: 'Fraunces';
   src: url(/public/fonts/Fraunces_144pt-SemiBold.ttf);
 }
-
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 body {
   position: relative;
 }
 
-h1, h2, h1 span {
+h1,
+h2,
+h1 span,
+h2 span {
   font-family: 'Fraunces', serif;
 }
 

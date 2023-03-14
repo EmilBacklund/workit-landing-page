@@ -1,6 +1,6 @@
 const MainContainer = ({ children }) => {
   return (
-    <main className="bg-workitGhostWhite pt-[155.29px] relative -z-10">
+    <main id='archShape' className='bg-workitGhostWhite relative -z-10 text-center'>
       {children}
     </main>
   );
